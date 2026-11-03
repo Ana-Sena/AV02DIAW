@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { listarNaRoca } from '../services/votacaoService';
 
+
 function Home() {
   const naRoca = listarNaRoca();
 
